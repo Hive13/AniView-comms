@@ -30,3 +30,8 @@ Input pins connect to WeMo D1 mini pins like this:
 
 ## Board identifiers
 
+![back](photos/back.jpg)
+
+![daughterboard](photos/daughterboard.jpg)
+
+![mainboard](photos/mainboard.jpg)
