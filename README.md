@@ -3,26 +3,6 @@
 An attempt at interfacing with the [AniView 3000-1](http://www.lumenchina.com/page-164-146-j0xril.html) display that Hive13
 acquired.
 
-Above page calls for "LedCenter V3.00 or above" - download page there with executables for windows and android at least: http://www.lumenchina.com/en-download/
-
-So far, this repository is just a dump of notes and photos I've been taking.
-
-As the daughterboard has the identifier `DS06ADC_KB04 VER.A` on it, I
-am guessing it is the KB04 referred to in that link, which gives this
-pinout:
-
-```
- -------------------------
-|  A  B  C CK LD  R  G  D |
-| OE  N  N  N  N  N  N  N |
- -------------------------
-```
-
-The "plug board CAM" link is down, but [Wayback Machine remembers](https://web.archive.org/web/20161224033255/http://www.lumenchina.com/page-164-146-j0xril.html): [KB04.rar](https://web.archive.org/web/20161224033255/http://www.2008led.com/front/action/file/downloadAction.do?id=4324).
-
-That RAR, and the RAR inside it (?), are extracted into the
-`board_cam` directory in this repo.
-
 ## Original wiring
 
 This originally had the bottom board's "Input" port connected to a WeMo D1 mini.
@@ -45,6 +25,31 @@ Input pins connect to WeMo D1 mini pins like this:
  - 7 - D3
  - 11 - D6
  - 15 - D5
+
+## Attempts at finding specs/docs/anything
+
+Above page calls for "LedCenter V3.00 or above" - download page there with executables for windows and android at least: http://www.lumenchina.com/en-download/
+
+So far, this repository is just a dump of notes and photos I've been taking.
+
+As the daughterboard has the identifier `DS06ADC_KB04 VER.A` on it, I
+am guessing it is the KB04 referred to in that link, which gives this
+pinout:
+
+```
+ -------------------------
+|  A  B  C CK LD  R  G  D |
+| OE  N  N  N  N  N  N  N |
+ -------------------------
+```
+
+The "plug board CAM" link is down, but [Wayback Machine remembers](https://web.archive.org/web/20161224033255/http://www.lumenchina.com/page-164-146-j0xril.html): [KB04.rar](https://web.archive.org/web/20161224033255/http://www.2008led.com/front/action/file/downloadAction.do?id=4324).
+
+That RAR, and the RAR inside it (?), are extracted into the
+`board_cam` directory in this repo.
+
+For the mainboards, I am finding seemingly no reference to the PCBs
+online, except for [this spreadsheet on Baidu](https://wenku.baidu.com/view/458d32efe009581b6bd9ebd5) that looks kind of useless.
 
 ## Photos
 
