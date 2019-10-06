@@ -45,6 +45,32 @@ Input pins connect to WeMo D1 mini pins like this:
 
 ![back](photos/back.jpg)
 
+To make this more easily searchable:
+
+```
+41" by 15" Ultra Bright Red Window
+Use Programmable LED Sign
+Manufacture: DTSI/Minford Technology
+Model: MLS7064
+Serial: MLS2009140
+Baud Rate: 38400
+Input Voltage: 110VAC/1A
+Date: May. 20, 2009
+LED Sign ID: 1
+Technical Support: techsupport@minfordsign.com
+Toll Free: 1 (888) 552-6888
+```
+
 ![daughterboard](photos/daughterboard.jpg)
 
+```
+DS06ADC_KB04 VER.A
+```
+
 ![mainboard](photos/mainboard.jpg)
+
+```
+MLS-P10M3216-4SV6
+NING LI
+2008-02-29
+```
