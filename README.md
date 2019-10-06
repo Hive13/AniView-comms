@@ -3,6 +3,8 @@
 An attempt at interfacing with the [AniView 3000-1](http://www.lumenchina.com/page-164-146-j0xril.html) display that Hive13
 acquired.
 
+Above page calls for "LedCenter V3.00 or above" - download page there with executables for windows and android at least: http://www.lumenchina.com/en-download/
+
 So far, this repository is just a dump of notes and photos I've been taking.
 
 As the daughterboard has the identifier `DS06ADC_KB04 VER.A` on it, I
