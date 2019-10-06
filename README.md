@@ -18,6 +18,9 @@ pinout:
 
 The "plug board CAM" link is down, but [Wayback Machine remembers](https://web.archive.org/web/20161224033255/http://www.lumenchina.com/page-164-146-j0xril.html): [KB04.rar](https://web.archive.org/web/20161224033255/http://www.2008led.com/front/action/file/downloadAction.do?id=4324).
 
+That RAR, and the RAR inside it (?), are extracted into the
+`board_cam` directory in this repo.
+
 ## Original wiring
 
 This originally had the bottom board's "Input" port connected to a WeMo D1 mini.
