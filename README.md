@@ -3,6 +3,8 @@
 An attempt at interfacing with the [AniView 3000-1](http://www.lumenchina.com/page-164-146-j0xril.html) display that Hive13
 acquired.
 
+Link to LedCenter is seemingly down, but [Wayback Machine remembers](https://web.archive.org/web/20140721122039/http://www.2008led.com/en/displayproduct.html?proTypeID=153414&proID=2456571).
+
 ## Original wiring
 
 This originally had the bottom board's "Input" port connected to a WeMo D1 mini.
